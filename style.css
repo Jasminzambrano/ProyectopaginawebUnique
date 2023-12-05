@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 & family = Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300 & display=swap');
+:root {
+    --color-black: #FFF;
+    --color-black: #aeaeca;
+    --font-family-lato: 'Lato';
+    
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato';
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+main {
+
+}
+
+header nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: solid 3px white;
+  align-items: center;
+  color: white;
+  background-color: #0005;
+  padding: 15px;
+}
+
+header nav a img {
+  width: 150px;
+}
+
+#mobile {
+  height: 50px;
+  width: 50px;
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 64px;
+  margin-right: 30px;
+}
+
+.login,
+.menu {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.menu img {
+  width: 30px;
+}
+
+.bar {
+  width: 3px;
+  background-color: white;
+  height: 16px;
+}
+
+.large {
+  height: 32px;
+}
+
+.active {
+  color: rgb(198, 198, 198);
+}
+
+main img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  
+  overflow-x: hidden;
+}
+.imagenContenida{
+  height: 140vh !important;
+}
+.header-text {
+  text-align: center;
+  width: 650px;
+  position: relative;
+
+}
+.header-text h1{
+color: white;
+position: absolute;
+top: 500px;
+left: 100px;
+}
+.header-text h2{
+  color: #f1f1f7;
+  position: absolute;
+  top: 470px;
+  left: 100px;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.btn-1 {
+  display: inline-block;
+  background-color:green;
+  margin-top: 35px;
+  padding: 15px 25px;
+  border-radius: 25px;
+  color: rgb(25, 27, 24);
+  position: relative; /*AQUI ME FOROZ A PONER RELATIVE*/
+  top: 550px;
+  left: 100px;
+  border: rgb(255, 255, 255) solid 1.5px;
+  background-repeat: no-repeat;
+}
+.btn-1:hover {
+  background-color: greenyellow;
+}
+
+/* barra de busquecon lupa */
+.container-caja{
+  background-color: transparent; /* Color del fondo */
+  padding: 10px; /* Espaciado alrededor del contenido */
+  background-repeat:no-repeat;
+}
+input{
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  background-color: transparent;
+  height: 7%;
+  width: 20%;
+  border: white solid 1px;
+  border-radius: 15px;
+  color: white;
+  background-repeat:no-repeat;
+}
+
+/* segundo rectangulo es de View propietis*/
+
+/*  SECCION PROPIEDADES FOR SALE*/
+.SeccionVenta {
+height: 10%;
+}
+.cuadrotextoventa{
+  width: 50%;
+}
+.imagenVenta{
+  width: 30%;
+}
+.btVenta{
+ 
+    display: inline-block;
+    background-color:pink;
+   margin-top: 40%;
+    border-radius: 25px;
+    color: rgb(121, 19, 19);
+    position: relative; /*AQUI ME FOROZ A PONER RELATIVE*/
+  
+    border: rgb(160, 52, 52) solid 1.5px;
+    background-repeat: no-repeat;
+  
+
+
+}
+
+.btVenta:hover {
+  background-color: pink;
+}
+.services-container h4{
+  color: black;
+  position: absolute;
+  right: 100px;
+  color: rgb(236, 146, 28);
+  font-size: 20px;
+}
+.services-container h5{
+  color: black;
+  position: absolute;
+  right: 100px;
+  font-size: 30px;
+  top: 850px;
+}
+.Properties-container-sale {
+  padding-inline-start: 50px 0px;
+  color: black;
+  display: flex;
+}
+.container-properties-sale{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* SECCION RENTA*/
+.Properties-container-rent {
+  padding-inline-start: 50px 0px;
+  color: black;
+  display: flex;
+  width: 50%;
+}
+
+.Properties-container-rent h7{
+  color: black;
+  position: absolute;
+  left: 10px;
+  color: rgb(236, 146, 28);
+  font-size: 20px;
+}
+.Properties-container-rent h8{
+  color: black;
+  position: absolute;
+  left: 10px;
+  font-size: 35px;
+  margin-top: 50px;
+}
+.text-1 {
+  font-size: 18px;
+ 
+}
+.container-properties {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.Properties-for-rent h10{
+  font-size: 15px;
+  padding: 0%; 
+}
+
+
+
+
+/*  SECCION DEVELOPERS*/
+.development-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.porfolio-txt h12{
+  color: black;
+  position: absolute;
+  left: 10px;
+  color: rgb(236, 146, 28);
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.porfolio-txt p{
+  color: black;
+  position: absolute;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.imgs{
+  width: 20%;
+  height: 5%;
+  margin: 10px;
+}
+.ContenedorImgs{
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+
+
+/*  SECCION FOOTER*/
+footer {
+  background-color: black;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  position: relative;
+}
+
+.news {
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  gap: 16px;
+  padding: 16px 50px;
+  transform: translate(0, -50%);
+}
+
+.news span {
+  color: orange;
+  font-size: 20px;
+}
+
+.news p {
+  color: white;
+  font-size: 32px;
+}
+
+.footer-form {
+  display: flex;
+  gap: column;
+}
+
+.footer-form input {
+  background-color: transparent;
+  border: solid 2px grey;
+  border-radius: 20px;
+  padding: 15px 16px;
+  width: fit-content;
+  justify-self: unset;
+}
+
+.footer-form button {
+  background-color: transparent;
+  border: solid 2px orange;
+  border-radius: 20px;
+  padding: 6px 32px;
+  width: fit-content;
+  color: orange;
+  justify-self: end;
+}
+
+.info {
+  display: grid;
+  gap: 16px;
+  color: white;
+}
+
+.footer-bar {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+@media screen and (max-width: 600px) {
+  #logo {
+    display: none;
+  }
+  #mobile {
+    display: block;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .menu a,
+  .menu div {
+    display: none;
+  }
+
+  main img {
+    object-position: center;
+  }
+}
